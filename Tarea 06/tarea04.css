@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    text-align: center; 
+    font-family: 'Dancing Script', cursive; 
+}
+@media (min-width:480px){
+    body{
+        background-color: wheat;
+    }
+}
+@media (min-width:768px){
+    body{
+        background-color: #c46ead;
+    }
+}
+.nav{
+    height: 100px;
+    background: linear-gradient(45deg,#58ACFA,#064b8c);
+    padding-top: 30px;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 3rem ;
+    padding-top: 30px;
+    font-size: 40px;  
+       
+}
+
+#video , video{
+    width: 100%;
+    height: 20%;
+}
+#intro{
+    float: right;
+    margin-top: 70px;
+    margin-right: 100px;
+}
+.intro , h2{
+    font-weight: 100;
+    font-size: 50px;
+    background: linear-gradient(45deg,#58ACFA,#064b8c);
+    width: 410px;
+    padding: 1rem;
+    border-radius: 15px;
+    display: flex;
+    float: right;
+    margin-right: 250px;
+    margin-top: 50px;
+
+}
+.intro , h3{
+    font-size: 60px;
+    margin-top: 50px;
+    margin-right: 70px;
+
+   
+}
+p{
+    width: 40%;
+    height: 40%;
+    margin-left: 55%;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+img{
+    height: 30%;
+    width: 30%;
+    border-radius: 300px;
+    float: left;
+    margin-right: 500px;
+    margin-left: 10px;
+   
+}
+
+.formulario{
+    width: 410px;
+    height: 410px;
+    margin-left: 45%;
+    margin-top: 40px;  
+    border-radius: 34px;
+    background: #874f78;
+    box-shadow:  24px 24px 48px #744467,
+             -24px -24px 48px #9a5a89;
+             padding: 1rem; 
+}
+
+
+input{
+    margin-top: 10px;
+    border-radius: 15px;
+    width: 350px;
+    height: 50px;
+   
+}
+#form ,h1{
+    font-size: 70px;
+    margin-left: 200px;
+    margin-top: 750px;
+}
+button{
+    margin-top: 20px;
+    width: 170px;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 20px;
+    background: linear-gradient(45deg,#58ACFA,#064b8c);
+    text-align: center;
+    margin-left: 100px;
+ 
+}
+
+footer{
+   
+    background: linear-gradient(45deg,#58ACFA,#064b8c);
+    height: 130px;
+    width: 100%;
+}
+#footer{
+    color: aliceblue;
+    padding: 2rem;
+    font-size: 50px;
+}
